@@ -1,4 +1,4 @@
-# Code-Chef-July-Challenge
+# CodeChef July Challenge 2019
 
 Chef has invested his savings into N coins (numbered 1 through N). For each valid i, the i-th coin has value Ai. Chef does not want to know how much money he has, so he remembers the mean value of the coins instead of the sum of their values.
 
