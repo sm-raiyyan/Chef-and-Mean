@@ -1,0 +1,16 @@
+#CHFM
+
+def sum1(list1):
+    total = 0
+    for ele in range(0, len(list1)): 
+        total = total + list1[ele]
+    return total
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    l = list(map(int, input().split()))
+    r = sum1(l)/n
+    if sum1(l)-(n-1)*r in l:
+        print(l.index(sum1(l)-(n-1)*r)+1)
+    else:
+            print("Impossible")
